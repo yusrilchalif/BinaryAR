@@ -5,20 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void Menu(){
+        Application.LoadLevel("MainMenu");
     }
 
     public void Play(){
-        Application.LoadLevel("GamePlay");
+        Application.LoadLevel("AR");
     }
 
     public void Panduan(){
@@ -33,8 +25,21 @@ public class MainMenu : MonoBehaviour
         Application.LoadLevel("Materi");
     }
 
+    public void Soal(){
+        Application.LoadLevel("Soal");
+    }
+
     public void Quit(){
          Application.Quit();
          Debug.Log("quit");
+    }
+    public void backMenu(){
+        Application.LoadLevel("MainMenu");
+    }
+    
+    void backTo(){
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            Application.LoadLevel("MainMenu");
+        }
     }
 }

@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/GamePlay.unity
-    guid: 4c203d02712b96c42af50253eb39cedb
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: de29c5241ae2f784aae6b9763a02cb1a
   - enabled: 1
@@ -19,5 +16,17 @@ EditorBuildSettings:
     guid: 232bc7f5377c23b4cb804b11ca7988aa
   - enabled: 1
     path: Assets/Scenes/Profil.unity
-    guid: 1208e34fa4dd10a45845afa214ac4d35
+    guid: cd30ab75716ab4544aee65e8c2889da7
+  - enabled: 1
+    path: Assets/Scenes/Soal.unity
+    guid: 33e5955d023786043908e0abd6912b7d
+  - enabled: 1
+    path: Assets/Scenes/SoalUraian.unity
+    guid: 47079ec24da6662438793d7dd58780fe
+  - enabled: 1
+    path: Assets/Scenes/PilihanSoal.unity
+    guid: a1b58eee45d19e84cb29ebb47dffa9c2
+  - enabled: 1
+    path: Assets/Scenes/AR.unity
+    guid: 9484f55195b55ee4991cfc44235ee305
   m_configObjects: {}

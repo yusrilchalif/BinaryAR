@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="10bin" size="10.000000 9.982409" />
+    <ImageTarget name="9bin" size="10.000000 9.982409" />
+    <ImageTarget name="8bine" size="10.000000 9.982409" />
+    <ImageTarget name="8bin" size="10.000000 9.982409" />
+    <ImageTarget name="7bin" size="10.000000 9.982409" />
+    <ImageTarget name="6bin" size="10.000000 9.982409" />
+    <ImageTarget name="5bin" size="10.000000 9.982409" />
+    <ImageTarget name="4bin" size="10.000000 9.982409" />
+    <ImageTarget name="3bin" size="10.000000 9.982409" />
+    <ImageTarget name="2bin" size="10.000000 9.982409" />
+    <ImageTarget name="1biner" size="10.000000 9.982409" />
+    <ImageTarget name="012" size="10.000000 9.982409" />
+    <ImageTarget name="energies-11-00599-g00221" size="10.000000 9.982409" />
+    <ImageTarget name="energies-11-00599-g002-Recovered" size="10.000000 9.982409" />
+    <ImageTarget name="energies-11-00599-g002-Recovered-Recovered" size="10.000000 9.982409" />
+    <ImageTarget name="energies-11-00599-g0011" size="5.000000 4.991205" />
+    <ImageTarget name="energies-11-00599-g0010" size="5.000000 4.991205" />
+    <ImageTarget name="energies-11-00599-g009" size="5.000000 4.991205" />
+    <ImageTarget name="energies-11-00599-g008" size="5.000000 4.991205" />
+    <ImageTarget name="energies-11-00599-g007" size="5.000000 4.991205" />
+    <ImageTarget name="energies-11-00599-g006" size="5.000000 4.991205" />
+    <ImageTarget name="energies-11-00599-g005" size="5.000000 4.991205" />
+    <ImageTarget name="energies-11-00599-g004" size="5.000000 4.991205" />
+    <ImageTarget name="energies-11-00599-g003" size="5.000000 4.991205" />
+    <ImageTarget name="energies-11-00599-g001" size="5.000000 4.991205" />
+    <ImageTarget name="energies-11-00599-g002" size="5.000000 4.991205" />
+    <ImageTarget name="0_red" size="5.000000 6.718615" />
+    <ImageTarget name="0_bw" size="5.000000 6.718615" />
+    <ImageTarget name="0" size="5.000000 6.718615" />
+  </Tracking>
+</QCARConfig>

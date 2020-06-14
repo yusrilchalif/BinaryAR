@@ -146,8 +146,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1280, y: 720}
+  m_AnchoredPosition: {x: -0.0000038146973, y: 0.0000076293945}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &66514323
 MonoBehaviour:
@@ -167,9 +167,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a0153204be08023489b74e2d17227abb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -298,7 +296,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &625054540
 RectTransform:
   m_ObjectHideFlags: 0
@@ -336,8 +334,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Panduan
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -374,7 +370,6 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 17
   m_textAlignment: 514
-  m_isAlignmentEnumConverted: 1
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -401,6 +396,7 @@ MonoBehaviour:
   m_verticalMapping: 0
   m_uvLineOffset: 0
   m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
@@ -415,12 +411,9 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
-  m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
   - {fileID: 0}
@@ -476,8 +469,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000023271, y: -0.000022888}
-  m_SizeDelta: {x: 1135, y: 441.6}
+  m_AnchoredPosition: {x: -7, y: 11.7}
+  m_SizeDelta: {x: 1382.4, y: 586.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &704041806
 MonoBehaviour:
@@ -520,8 +513,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.ScrollRect+ScrollRectEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &848179143
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,14 +541,15 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1333548314}
   m_Father: {fileID: 704041805}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14.75, y: -290.94995}
-  m_SizeDelta: {x: 1046.4, y: 1023.5}
+  m_AnchoredPosition: {x: -42.6, y: -218.6}
+  m_SizeDelta: {x: 990.6, y: 1023.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &848179145
 MonoBehaviour:
@@ -577,8 +569,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 44
@@ -592,18 +582,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Definisi Bilangan Biner atau dalam Bahasa Inggris \u201CBinary\u201D adalah
-    sebuah jenis penulisan angka menggunakan dua simbol yaitu 0 dan 1. Sistem bilangan
-    biner adalah sebuah dasar dari semua bilangan berbasis digital. Dari bilangan
-    biner kita bisa mengkonversi ke bilangan desimal. Sistem bilangan biner bisa juga
-    disebut dengan bit atau Binary digit. Pengelompokan biner dalam istilah komputer
-    selalu berjumlah 8, dengan istilah 1 Byte. Jangan sampai salah antara byte dan
-    bit itu berbeda, 1 byte sama dengan 8 bit. Sistem coding komputer secara umum
-    menggunakan sistem coding 1 byte. Bilangan biner yang digunakan itu ada 8 digit
-    angka yang hanya berisikan angka 1 dan 0, tidak ada angka yang lain.  Sistem bilangan
-    Biner pertama kali digunakan di awal abad 70-an oleh Thomas Harriot. Dalam bilangan
-    biner sama seperti bilangan lainnya, berlaku juga penambahan biner, pengurangan
-    biner, perkalian biner dan pembagian biner."
+  m_Text: 'Untuk menggunakan aplikasi ini gunakan minimal android veri 5.0 (Lollipop).
+
+
+    Untuk menggunakan fitur AR dengan baik usahakan ruangan dalam keadaan bercahaya
+
+
+    Arahkan kamera ke kartu untuk melakukan proses scanning seperti icon dibawah ini
+
+'
 --- !u!222 &848179146
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -716,8 +703,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -460, y: 251}
-  m_SizeDelta: {x: 130, y: 130}
+  m_AnchoredPosition: {x: -806.3, y: 403.9}
+  m_SizeDelta: {x: 159, y: 159}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1215753541
 MonoBehaviour:
@@ -770,8 +757,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1215753542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -790,9 +775,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5e4a8862b972a7741a78207238565dbb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b7bcfed7cb01de74fb11af826c75516c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -875,6 +858,78 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1333548313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1333548314}
+  - component: {fileID: 1333548316}
+  - component: {fileID: 1333548315}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1333548314
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333548313}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 848179144}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -17, y: -94.2}
+  m_SizeDelta: {x: 323.4, y: 323.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1333548315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333548313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0fcc3bf5390055e449f0219d12c03381, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1333548316
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333548313}
+  m_CullTransparentMesh: 0
 --- !u!1 &1721357501
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,8 +966,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.899994, y: -69.600006}
-  m_SizeDelta: {x: -145, y: -278.4}
+  m_AnchoredPosition: {x: -9.700012, y: -39.599976}
+  m_SizeDelta: {x: -424, y: -352}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1721357503
 MonoBehaviour:
@@ -945,8 +1000,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -1138,8 +1191,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 538, y: -0.000022888}
-  m_SizeDelta: {x: 59.1, y: 441.6}
+  m_AnchoredPosition: {x: 656.6, y: 51}
+  m_SizeDelta: {x: 69.2, y: 441.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1972815939
 MonoBehaviour:
@@ -1180,14 +1233,12 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2086929735}
   m_HandleRect: {fileID: 2086929734}
   m_Direction: 2
-  m_Value: 0.99999994
-  m_Size: 0.43146068
+  m_Value: 1
+  m_Size: 0.5728383
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.Scrollbar+ScrollEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1972815940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1206,8 +1257,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -1280,8 +1329,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
